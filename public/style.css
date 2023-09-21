@@ -1,0 +1,32 @@
+img {
+    display: inline-block;
+}
+
+h1 {
+    display: inline-block;
+    text-justify: auto;
+}
+
+
+ul {
+    margin-left: 5pc;
+    list-style: none;
+}
+
+div li {
+    display: inline-block;
+    margin-right: 14.5pc;
+}
+
+h3 {
+    margin-left: 5pc;
+    margin-top: 2pc;
+}
+
+span {
+    float: right;
+}
+
+#fix {
+    width: fit-content;
+}
