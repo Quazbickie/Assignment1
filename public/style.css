@@ -28,6 +28,22 @@ ul span {
     float: right;
 }
 
+.staff {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
+
+.member {
+    padding: 0px 100px 0px;
+}
+
+.member p {
+    text-align: center;
+}
+
+
 .news, .updates {
     margin: 5% 20% 2%;
 }
