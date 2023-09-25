@@ -2,44 +2,28 @@ html * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
+img, h1 {
     display: inline-block;
 }
 
-h1 {
-    display: inline-block;
-    text-justify: auto;
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
-
 
 ul {
-    margin-left: 5pc;
+    display: flex;
+    justify-content: space-between;
+    margin: 5pc;
     list-style: none;
 }
 
-#menu-bar li {
-    display: inline-block;
-    margin-right: 14vw;
-}
-
-h3 {
-    margin-left: 5pc;
-    margin-top: 2pc;
-}
-
-span {
+ul span {
     float: right;
 }
 
-#fix {
-    width: fit-content;
-} 
-
-.column {
-    float: left;
-    width: 33%;
-    height: 100vh;
-}
 
 .body p {
     text-indent: 2em;   
