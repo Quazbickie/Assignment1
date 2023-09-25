@@ -13,10 +13,14 @@ img, h1 {
     width: 40%;
 }
 
+.column h3 {
+    text-align: center;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
-    margin: 5pc;
+    margin: 1pc 5pc 5pc 5pc;
     list-style: none;
 }
 
@@ -33,3 +37,7 @@ ul span {
     text-indent: 2em;   
 }
 
+footer {
+    padding: 2px;
+    background-color: aliceblue;
+}
