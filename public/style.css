@@ -24,6 +24,10 @@ ul span {
     float: right;
 }
 
+.news, .updates {
+    margin: 5% 20% 2%;
+}
+
 
 .body p {
     text-indent: 2em;   
