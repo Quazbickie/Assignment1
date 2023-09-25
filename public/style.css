@@ -1,3 +1,7 @@
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img {
     display: inline-block;
 }
@@ -13,9 +17,9 @@ ul {
     list-style: none;
 }
 
-div li {
+#menu-bar li {
     display: inline-block;
-    margin-right: 14.5pc;
+    margin-right: 14vw;
 }
 
 h3 {
@@ -29,4 +33,15 @@ span {
 
 #fix {
     width: fit-content;
+} 
+
+.column {
+    float: left;
+    width: 33%;
+    height: 100vh;
 }
+
+.body p {
+    text-indent: 2em;   
+}
+
